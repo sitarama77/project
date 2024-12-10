@@ -7,7 +7,7 @@ public class Sample {
         
 
         System.out.print("Enter a number: ");
-        int num = reader.nextInt();
+        int num = nextInt();
 
         if(num % 2 == 0)
             System.out.println(num + " is even");
